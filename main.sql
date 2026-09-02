@@ -32,7 +32,7 @@ CREATE TABLE bookings (
     user_id INT NOT NULL,
     match_id INT NOT NULL,
     seat_number VARCHAR(20),
-    payment_status VARCHAR(20) NOT NULL,
+    payment_status VARCHAR(20),
     total_cost DECIMAL(10,2) NOT NULL,
 
     CONSTRAINT bookings_user_fk
